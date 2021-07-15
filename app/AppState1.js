@@ -1,7 +1,9 @@
 import Job from "./Models/Job";
 
+// the goal of AppState or store is to hold all data for entire application
+
 class AppState extends EventEmitter {
-    Jobs = [new Job()]
+    Jobs = [new Job(), {}]
 }
 
 Jobs = [

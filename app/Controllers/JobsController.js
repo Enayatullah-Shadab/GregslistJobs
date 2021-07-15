@@ -1,6 +1,6 @@
 //NOTE controller takes user input from view(html) and calls to the model or service and attempt to change  
-import { ProxyState } from "../AppState";
-import Job from "../Models/Job";
+import { ProxyState } from "../AppState.js";
+import Job from "../Models/Job.js";
 
 
 // class is the blue print of an object and it define what a thing is.
