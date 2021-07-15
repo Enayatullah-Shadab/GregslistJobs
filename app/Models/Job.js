@@ -17,6 +17,7 @@ export default class Job {
         this.qualification = qualification;
         this.wage = wage;
     }
+    // methods is a special type of functions that is tied to specific object.
     get Template() {
         return `
         <div class="col-6">

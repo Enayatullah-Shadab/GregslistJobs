@@ -15,7 +15,7 @@ export default class JobsController {
         _draw()
 
     }
-    // methods are functions that are tied to specific objects.
+
 
 
 }//encapsulation: hiding the internal representation or state of an object from outside manipulation 
