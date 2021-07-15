@@ -17,4 +17,23 @@ export default class Job {
         this.qualification = qualification;
         this.wage = wage;
     }
+    get Template() {
+        return `
+        <div class="col-6">
+        <div class="card-columns">
+            <div class="card">
+                <img class="card-img-top" src="assets/img/we are hirng.jpg" alt="">
+                <div class="card-body">
+                    <h5 class="position">${Position}: </h5>
+                    <h5 class="location">${Location}: </h5>
+                    <h5 class="job description">${Job - Description}: </h5>
+                    <h5 class="qualification">${Qualification}: </h5>
+                    <h5 class="wage">${Wage}: </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+        `
+
+    }
 }
